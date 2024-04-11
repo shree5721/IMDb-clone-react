@@ -1,0 +1,129 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.header_container{
+    width: 100%;
+    background-color: #121212;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #121212;
+    width: 80%;
+    margin: auto;
+    height: 60px;
+}
+.header .idmb_icon{
+    width: 70px;
+}
+.header .imdb_pro{
+    width: 60px;
+}
+.header .menu{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.header .menu:hover{
+    background-color: #363333;
+}
+.header .inputs {
+    width: 600px;
+    background-color: #fff;
+    display: flex;
+    height: 35px;
+    border-radius: 4px; /* Consolidating border-radius */
+  }
+  
+  .header .inputs input {
+    flex: 1;
+    border: none;
+    height: 100%;
+    padding: 0 16px;
+    outline: none;
+  }
+  
+  .header .inputs select {
+    width: 52px; 
+    height: 100%;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    padding:0 6px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .header .inputs select:hover{
+    background-color:rgb(250, 237, 237);
+  }
+  
+  .inputs button {
+    width: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: transparent; /* Ensure button background is transparent */
+    cursor: pointer;
+  }
+  
+  /* Styling for option elements */
+  .header .inputs select option {
+    width: 100%;
+  }
+  
+  /* Styling for spans within options */
+  .header .inputs select option span {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    gap: 5px; /* Add some space between icon and text */
+  }
+  .header .divider{
+    color: white;
+  }
+.header .watchlist{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 6px 8px;
+}
+.header .watchlist:hover{
+    background-color: #363333;
+}
+.header .signin{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 8px;
+}
+.header .signin:hover{
+    background-color: #363333;
+}
+
+.category{
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    height: 50px;
+    gap: 12px;
+    padding-left: 15px;
+}
+.category a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.category a:hover{
+    color: #d6cbcb;
+}
